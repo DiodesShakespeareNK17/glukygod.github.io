@@ -1,0 +1,203 @@
+body{
+
+    background-color: #F4F5F7;
+}
+
+
+
+#color {
+    font-size: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 160px;
+    top: 280px;
+    color: #243ECB;
+
+}
+
+#normal{
+    font-size: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 160px;
+    top: 200px;
+
+}
+
+img {
+    position: absolute;
+    right: 250px;
+    top: 40px;
+    width: 600px;
+    height: auto;
+
+
+}
+
+
+nav {
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+details {
+    position: absolute;
+    display: inline;
+    left: 1250px;
+    top: 30px;
+    font-family: 'Inter', sans-serif;
+    z-index: 1;
+}
+
+.menu {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    font-family: 'Inter', sans-serif ;
+    
+}
+
+.boton {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #37b4f3;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    left: 200px;
+    top: 500px;
+    color: black;
+
+}
+
+.menu-fondo {
+    border-radius: 10px;
+    position:relative;
+    padding: 5px 5px;
+    background-color: white;
+}
+
+.Con {
+    position: relative;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif ;
+    border-radius: 2px;
+
+}
+
+.Con:hover {
+    position: relative;
+    background-color:#F8FAFD;
+}
+
+.menu:hover {
+    color: rgb(192, 192, 192);
+}
+
+.logo {
+    position:absolute;
+    left: 230px;
+    width: 50px;
+    height: auto;
+    top: 23px;
+}
+
+@media screen and (max-width:1550px) {
+
+    #color {
+        font-size: 70px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        left: 160px;
+        top: 280px;
+        color: #243ECB;
+    
+    }
+    
+    #normal{
+        font-size: 70px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        left: 160px;
+        top: 200px;
+    
+    }
+
+
+    img {
+        position: absolute;
+        right: 100px;
+        top: 40px;
+        width: 500px;
+        height: auto;
+    
+    
+    }
+
+
+    .boton {
+        position: absolute;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #37b4f3;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        left: 200px;
+        top: 450px;
+        color: black;
+    
+    }
+
+
+    nav {
+        position: absolute;
+        left: 400px;
+        top: 40px;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    details {
+        position: absolute;
+        display: inline;
+        left: 1050px;
+        top: 40px;
+        font-family: 'Inter', sans-serif;
+        z-index: 1;
+        width: 200px;
+        height: auto;
+    }
+    
+    .menu {
+        position: relative;
+        text-decoration: none;
+        color: black;
+        padding-left: 20px;
+        font-family: 'Inter', sans-serif ;
+        
+    }
+    .menu-fondo {
+        border-radius: 10px;
+        position:relative;
+        padding: 5px 5px;
+        background-color: white;
+    }
+    
+    .Con {
+        position: relative;
+        padding: 10px 10px;
+        font-size: 15px;
+        font-family: 'Inter', sans-serif ;
+        border-radius: 2px;
+    }
+
+
+}
+
+
+
